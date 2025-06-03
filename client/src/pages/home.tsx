@@ -585,13 +585,27 @@ console.log('MarquesScripts carregado com sucesso!');
             {/* Feature Cards */}
             <Card className="glass-effect border-border/20 bg-card/50 hover:glow-effect transition-all duration-300">
               <CardContent className="p-8">
-                <UserCog className="text-4xl mb-4 feature-icon h-12 w-12" />
-                <h3 className="text-2xl font-bold mb-4 text-primary">Gerente de Conta</h3>
+                <div className="text-4xl mb-4">🛡️</div>
+                <h3 className="text-2xl font-bold mb-4 text-primary">Upar Paladino</h3>
                 <p className="text-muted-foreground mb-4">
-                  Gerencie múltiplas contas automaticamente com sistema inteligente de rotação e monitoramento.
+                  Distribui automaticamente os recursos para acelerar o aprimoramento do Paladino. Seu herói evolui enquanto você dorme!
                 </p>
                 <Badge variant="secondary" className="bg-green-500/20 text-green-400 border-green-500/30">
                   <Clock className="mr-1 h-3 w-3" />
+                  Economiza 1h/dia
+                </Badge>
+              </CardContent>
+            </Card>
+
+            <Card className="glass-effect border-border/20 bg-card/50 hover:glow-effect transition-all duration-300">
+              <CardContent className="p-8">
+                <div className="text-4xl mb-4">⚔️</div>
+                <h3 className="text-2xl font-bold mb-4 text-primary">Recrutador Automático</h3>
+                <p className="text-muted-foreground mb-4">
+                  Recruta automaticamente tropas com base em um plano predefinido. Suas aldeias nunca param de produzir exércitos!
+                </p>
+                <Badge variant="secondary" className="bg-blue-500/20 text-blue-400 border-blue-500/30">
+                  <Zap className="mr-1 h-3 w-3" />
                   Economiza 2h/dia
                 </Badge>
               </CardContent>
@@ -599,13 +613,13 @@ console.log('MarquesScripts carregado com sucesso!');
 
             <Card className="glass-effect border-border/20 bg-card/50 hover:glow-effect transition-all duration-300">
               <CardContent className="p-8">
-                <Sword className="text-4xl mb-4 feature-icon h-12 w-12" />
-                <h3 className="text-2xl font-bold mb-4 text-primary">Upador Palatino</h3>
+                <div className="text-4xl mb-4">📍</div>
+                <h3 className="text-2xl font-bold mb-4 text-primary">Farm Mapa</h3>
                 <p className="text-muted-foreground mb-4">
-                  Upgrade automático de tropas palatinas com estratégias otimizadas para máximo aproveitamento.
+                  Coleta coordenadas do mapa automaticamente e manda farmar baseado no A ou B. Farm inteligente que encontra as melhores oportunidades!
                 </p>
-                <Badge variant="secondary" className="bg-green-500/20 text-green-400 border-green-500/30">
-                  <Clock className="mr-1 h-3 w-3" />
+                <Badge variant="secondary" className="bg-purple-500/20 text-purple-400 border-purple-500/30">
+                  <TrendingUp className="mr-1 h-3 w-3" />
                   Economiza 1.5h/dia
                 </Badge>
               </CardContent>
@@ -613,27 +627,13 @@ console.log('MarquesScripts carregado com sucesso!');
 
             <Card className="glass-effect border-border/20 bg-card/50 hover:glow-effect transition-all duration-300">
               <CardContent className="p-8">
-                <Users className="text-4xl mb-4 feature-icon h-12 w-12" />
-                <h3 className="text-2xl font-bold mb-4 text-primary">Recrutador Automático</h3>
-                <p className="text-muted-foreground mb-4">
-                  Recrutamento inteligente de tropas baseado em recursos disponíveis e estratégia definida.
-                </p>
-                <Badge variant="secondary" className="bg-green-500/20 text-green-400 border-green-500/30">
-                  <Clock className="mr-1 h-3 w-3" />
-                  Economiza 1h/dia
-                </Badge>
-              </CardContent>
-            </Card>
-
-            <Card className="glass-effect border-border/20 bg-card/50 hover:glow-effect transition-all duration-300">
-              <CardContent className="p-8">
-                <Scale3d className="text-4xl mb-4 feature-icon h-12 w-12" />
+                <div className="text-4xl mb-4">⚖️</div>
                 <h3 className="text-2xl font-bold mb-4 text-primary">Balanceador de Recursos</h3>
                 <p className="text-muted-foreground mb-4">
-                  Distribui recursos automaticamente entre aldeias para maximizar eficiência de construção.
+                  Balanceia automaticamente os recursos entre as aldeias. Mantém o equilíbrio perfeito em todo seu império sem esforço manual!
                 </p>
-                <Badge variant="secondary" className="bg-green-500/20 text-green-400 border-green-500/30">
-                  <Clock className="mr-1 h-3 w-3" />
+                <Badge variant="secondary" className="bg-orange-500/20 text-orange-400 border-orange-500/30">
+                  <RotateCcw className="mr-1 h-3 w-3" />
                   Economiza 45min/dia
                 </Badge>
               </CardContent>
@@ -641,13 +641,13 @@ console.log('MarquesScripts carregado com sucesso!');
 
             <Card className="glass-effect border-border/20 bg-card/50 hover:glow-effect transition-all duration-300">
               <CardContent className="p-8">
-                <Coins className="text-4xl mb-4 feature-icon h-12 w-12" />
-                <h3 className="text-2xl font-bold mb-4 text-primary">Cunhar Automático</h3>
+                <div className="text-4xl mb-4">💰</div>
+                <h3 className="text-2xl font-bold mb-4 text-primary">Cunhar Moedas</h3>
                 <p className="text-muted-foreground mb-4">
-                  Sistema de cunhagem inteligente que otimiza produção de moedas baseado na economia do jogo.
+                  Cunha automaticamente as moedas para maximizar seu potencial econômico. Transforme recursos em poder de ataque constante!
                 </p>
-                <Badge variant="secondary" className="bg-green-500/20 text-green-400 border-green-500/30">
-                  <Clock className="mr-1 h-3 w-3" />
+                <Badge variant="secondary" className="bg-yellow-500/20 text-yellow-400 border-yellow-500/30">
+                  <Coins className="mr-1 h-3 w-3" />
                   Economiza 30min/dia
                 </Badge>
               </CardContent>
@@ -655,14 +655,56 @@ console.log('MarquesScripts carregado com sucesso!');
 
             <Card className="glass-effect border-border/20 bg-card/50 hover:glow-effect transition-all duration-300">
               <CardContent className="p-8">
-                <Send className="text-4xl mb-4 feature-icon h-12 w-12" />
-                <h3 className="text-2xl font-bold mb-4 text-primary">Enviar Recursos</h3>
+                <div className="text-4xl mb-4">📅</div>
+                <h3 className="text-2xl font-bold mb-4 text-primary">Planejador de Ataques</h3>
                 <p className="text-muted-foreground mb-4">
-                  Envio automático de recursos entre aldeias com algoritmos de otimização de rotas e timing.
+                  Planeja ataques complexos com base em horários, coordenadas e tipos de tropas. Estratégia militar automatizada de elite!
+                </p>
+                <Badge variant="secondary" className="bg-cyan-500/20 text-cyan-400 border-cyan-500/30">
+                  <Send className="mr-1 h-3 w-3" />
+                  Economiza 1h/dia
+                </Badge>
+              </CardContent>
+            </Card>
+
+            <Card className="glass-effect border-border/20 bg-card/50 hover:glow-effect transition-all duration-300">
+              <CardContent className="p-8">
+                <div className="text-4xl mb-4">🧲</div>
+                <h3 className="text-2xl font-bold mb-4 text-primary">Coleta em Massa</h3>
+                <p className="text-muted-foreground mb-4">
+                  Coleta automaticamente os recursos de todas as aldeias. Maximize seus ganhos enquanto foca na estratégia!
                 </p>
                 <Badge variant="secondary" className="bg-green-500/20 text-green-400 border-green-500/30">
                   <Clock className="mr-1 h-3 w-3" />
-                  Economiza 1h/dia
+                  Economiza 40min/dia
+                </Badge>
+              </CardContent>
+            </Card>
+
+            <Card className="glass-effect border-border/20 bg-card/50 hover:glow-effect transition-all duration-300">
+              <CardContent className="p-8">
+                <div className="text-4xl mb-4">🔥</div>
+                <h3 className="text-2xl font-bold mb-4 text-primary">Mercado Premium</h3>
+                <p className="text-muted-foreground mb-4">
+                  Troca automaticamente os recursos no mercado premium. Otimize suas transações e maximize lucros em tempo real!
+                </p>
+                <Badge variant="secondary" className="bg-red-500/20 text-red-400 border-red-500/30">
+                  <Rocket className="mr-1 h-3 w-3" />
+                  Economiza 25min/dia
+                </Badge>
+              </CardContent>
+            </Card>
+
+            <Card className="glass-effect border-border/20 bg-card/50 hover:glow-effect transition-all duration-300">
+              <CardContent className="p-8">
+                <div className="text-4xl mb-4">🔒</div>
+                <h3 className="text-2xl font-bold mb-4 text-primary">Proteção Anti-Captcha</h3>
+                <p className="text-muted-foreground mb-4">
+                  Logout automático quando captcha aparece, com notificações no Telegram. Proteja suas contas 24/7!
+                </p>
+                <Badge variant="secondary" className="bg-indigo-500/20 text-indigo-400 border-indigo-500/30">
+                  <Shield className="mr-1 h-3 w-3" />
+                  Segurança Total
                 </Badge>
               </CardContent>
             </Card>
@@ -783,25 +825,25 @@ console.log('MarquesScripts carregado com sucesso!');
       <section id="contact" className="py-20 bg-card/30">
         <div className="container mx-auto px-6">
           <div className="max-w-2xl mx-auto text-center">
-            <h2 className="text-4xl font-bold mb-8">Suporte & Contato</h2>
+            <h2 className="text-4xl font-bold mb-8">Comprar ou Renovar Licença</h2>
             <p className="text-muted-foreground mb-8">
-              Desenvolvido por Gabriel Borba Marques. Precisa de ajuda ou tem sugestões?
+              Entre em contato para adquirir ou renovar sua licença dos MarquesScripts
             </p>
             
-            <div className="flex flex-wrap justify-center gap-6">
-              <Button className="bg-primary hover:bg-primary/80 text-primary-foreground">
-                <Users className="mr-2 h-4 w-4" />
-                Discord
-              </Button>
-              <Button className="bg-secondary hover:bg-secondary/80 text-secondary-foreground">
-                <Send className="mr-2 h-4 w-4" />
-                Email
-              </Button>
-              <Button className="bg-accent hover:bg-accent/80 text-accent-foreground">
-                <Send className="mr-2 h-4 w-4" />
-                Telegram
+            <div className="flex justify-center">
+              <Button 
+                onClick={() => window.open('https://wa.me/5551994823267?text=Oi,%20vim%20pelo%20marquescript%20para%20comprar%20ou%20renovar%20uma%20licença', '_blank')}
+                className="bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-8 text-xl glow-effect hover:scale-105 transition-all duration-300 shadow-2xl h-auto"
+                size="lg"
+              >
+                <div className="mr-3 text-2xl">📱</div>
+                Entrar em Contato via WhatsApp
               </Button>
             </div>
+            
+            <p className="text-sm text-muted-foreground mt-4">
+              Desenvolvido por Gabriel Borba Marques
+            </p>
           </div>
         </div>
       </section>
