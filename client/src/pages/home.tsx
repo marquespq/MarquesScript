@@ -709,6 +709,97 @@ console.log('MarquesScripts carregado com sucesso!');
               </CardContent>
             </Card>
           </div>
+          
+          {/* More Scripts Teaser */}
+          <div className="mt-20 text-center">
+            <div className="max-w-4xl mx-auto">
+              <h3 className="text-3xl font-bold mb-6 text-primary">E MUITO MAIS!</h3>
+              <p className="text-xl text-muted-foreground mb-8">
+                Estes são apenas alguns dos <span className="text-primary font-bold">25+ scripts disponíveis</span> nos MarquesScripts
+              </p>
+              
+              <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 text-sm">
+                <div className="glass-effect p-3 rounded-lg border border-border/20">
+                  <div className="text-2xl mb-2">🚜</div>
+                  <p>Farm Assistente</p>
+                </div>
+                <div className="glass-effect p-3 rounded-lg border border-border/20">
+                  <div className="text-2xl mb-2">📫</div>
+                  <p>Mensagem OP Automática</p>
+                </div>
+                <div className="glass-effect p-3 rounded-lg border border-border/20">
+                  <div className="text-2xl mb-2">🔥</div>
+                  <p>Calculadora de Snips</p>
+                </div>
+                <div className="glass-effect p-3 rounded-lg border border-border/20">
+                  <div className="text-2xl mb-2">⚔️</div>
+                  <p>Envio Automático de Fakes</p>
+                </div>
+                <div className="glass-effect p-3 rounded-lg border border-border/20">
+                  <div className="text-2xl mb-2">🤝</div>
+                  <p>Verificar Apoios Fórum</p>
+                </div>
+                <div className="glass-effect p-3 rounded-lg border border-border/20">
+                  <div className="text-2xl mb-2">⚔️</div>
+                  <p>Enviar Apoio em Massa</p>
+                </div>
+                <div className="glass-effect p-3 rounded-lg border border-border/20">
+                  <div className="text-2xl mb-2">🧪</div>
+                  <p>Coleta Individual</p>
+                </div>
+                <div className="glass-effect p-3 rounded-lg border border-border/20">
+                  <div className="text-2xl mb-2">✏️</div>
+                  <p>Etiquetador + Discord</p>
+                </div>
+                <div className="glass-effect p-3 rounded-lg border border-border/20">
+                  <div className="text-2xl mb-2">⚔️</div>
+                  <p>Verificador de Defesa</p>
+                </div>
+                <div className="glass-effect p-3 rounded-lg border border-border/20">
+                  <div className="text-2xl mb-2">🚚</div>
+                  <p>Enviar Recursos</p>
+                </div>
+                <div className="glass-effect p-3 rounded-lg border border-border/20">
+                  <div className="text-2xl mb-2">📊</div>
+                  <p>Export Tropas</p>
+                </div>
+                <div className="glass-effect p-3 rounded-lg border border-border/20">
+                  <div className="text-2xl mb-2">⚔️</div>
+                  <p>Contador de Fulls</p>
+                </div>
+              </div>
+              
+              <div className="mt-8 p-6 glass-effect rounded-lg border border-primary/30">
+                <h4 className="text-xl font-bold mb-4 text-primary">Categorias Completas:</h4>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-left">
+                  <div>
+                    <h5 className="font-semibold text-secondary mb-2">📋 Gerente de Conta</h5>
+                    <p className="text-sm text-muted-foreground">6+ scripts para automação total</p>
+                  </div>
+                  <div>
+                    <h5 className="font-semibold text-secondary mb-2">🌾 Farm e Coleta</h5>
+                    <p className="text-sm text-muted-foreground">7+ scripts para maximizar recursos</p>
+                  </div>
+                  <div>
+                    <h5 className="font-semibold text-secondary mb-2">🧠 Planejamento e Estratégia</h5>
+                    <p className="text-sm text-muted-foreground">4+ scripts para domínio tático</p>
+                  </div>
+                  <div>
+                    <h5 className="font-semibold text-secondary mb-2">🏛️ Funcionalidades da Tribo</h5>
+                    <p className="text-sm text-muted-foreground">5+ scripts para coordenação</p>
+                  </div>
+                  <div>
+                    <h5 className="font-semibold text-secondary mb-2">🔒 Segurança e Notificações</h5>
+                    <p className="text-sm text-muted-foreground">3+ scripts para proteção</p>
+                  </div>
+                  <div>
+                    <h5 className="font-semibold text-secondary mb-2">🛡️ Defesa e Apoio</h5>
+                    <p className="text-sm text-muted-foreground">3+ scripts para fortalecimento</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
