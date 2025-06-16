@@ -88,7 +88,7 @@ export default function Home() {
         "https://gist.github.com/marquespq/91f88524bcb9401dd1919cb69d70d874/raw/dc085e2f19308185e88553a620973a1aa80531c7/marquescript.user.js";
     } else if (scriptName === "mass-atack-plan.user.js") {
       scriptUrl =
-        "https://gist.github.com/marquespq/e35ae969b55df186996bc69e486ca0c4/raw/642cf77dece6b36ff12a1f9a677bee7719d70dcb/plan.js";
+        "https://gist.github.com/marquespq/c3a9b49e72a625ccd181c860f3f061ee/raw/b9f0859488c5eca79d409644492d13f6c3372a44/plan.user.js";
     } else {
       // fallback for other scripts if needed
       scriptUrl = `/scripts/${scriptName}`;
