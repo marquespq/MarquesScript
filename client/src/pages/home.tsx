@@ -86,7 +86,7 @@ export default function Home() {
     if (scriptName === "loader.user.js") {
       scriptUrl =
         "https://gist.github.com/marquespq/91f88524bcb9401dd1919cb69d70d874/raw/dc085e2f19308185e88553a620973a1aa80531c7/marquescript.user.js";
-    } else if (scriptName === "mass-atack-plan.user.js") {
+    } else if (scriptName === "plan.user.js") {
       scriptUrl =
         "https://gist.github.com/marquespq/c3a9b49e72a625ccd181c860f3f061ee/raw/b9f0859488c5eca79d409644492d13f6c3372a44/plan.user.js";
     } else {
