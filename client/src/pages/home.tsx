@@ -88,7 +88,7 @@ export default function Home() {
         "https://gist.github.com/marquespq/91f88524bcb9401dd1919cb69d70d874/raw/dc085e2f19308185e88553a620973a1aa80531c7/marquescript.user.js";
     } else if (scriptName === "mass-atack-plan.user.js") {
       scriptUrl =
-        "https://gist.github.com/marquespq/c8659276c73728a8498b8e87a12b081a/raw/74d95e8fb2fc8d57792b62b3a25a048428212f19/mass-plan.js";
+        "https://gist.github.com/marquespq/e35ae969b55df186996bc69e486ca0c4/raw/642cf77dece6b36ff12a1f9a677bee7719d70dcb/plan.js";
     } else {
       // fallback for other scripts if needed
       scriptUrl = `/scripts/${scriptName}`;
@@ -695,7 +695,7 @@ export default function Home() {
                     Planeje e execute ataques em massa automaticamente
                   </p>
                   <Button
-                    onClick={() => installScript("mass-atack-plan.user.js")}
+                    onClick={() => installScript("plan.user.js")}
                     className="w-full hero-gradient text-white font-bold py-4 px-8 glow-effect hover:scale-105 transition-all duration-300"
                   >
                     <Download className="mr-3 h-5 w-5" />
