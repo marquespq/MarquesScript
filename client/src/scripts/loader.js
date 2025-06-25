@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  Script que se autentica usando o playerId automaticamente
 // @author       Gabriel Borba Marques
-// @icon         https://i.imgur.com/LJKjR8L.png
+// @icon         https://i.imgur.com/IILGd2S.png
 // @match        https://*.tribalwars.com.br/*
 // @grant        none
 // ==/UserScript==
