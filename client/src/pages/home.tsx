@@ -88,7 +88,7 @@ export default function Home() {
         "https://gist.github.com/marquespq/5ec4333660e301e4467bf5be6a48db14/raw/40e85f10e8be28000e1a4eea6ea5b74cc6417458/marquescript.user.js";
     } else if (scriptName === "plan.user.js") {
       scriptUrl =
-        "https://gist.github.com/marquespq/c3a9b49e72a625ccd181c860f3f061ee/raw/b9f0859488c5eca79d409644492d13f6c3372a44/plan.user.js";
+        "https://gist.github.com/marquespq/2ac8068d989b4210667509cfc2e29053/raw/38a9ca72c3730c2a249962dfa710648578c3d83e/plan.user.js";
     } else {
       // fallback for other scripts if needed
       scriptUrl = `/scripts/${scriptName}`;
