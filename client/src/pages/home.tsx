@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import AlertaCaptcha from "./alerta-captcha";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -23,10 +24,20 @@ import {
 } from "lucide-react";
 
 export default function Home() {
+  // Detecta o parâmetro alerta-captcha na URL
+  const [showAlerta, setShowAlerta] = useState(false);
   const [counters, setCounters] = useState({ hours: 0, monthly: 0, yearly: 0 });
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    if (params.has("alerta-captcha")) {
+      setShowAlerta(true);
+    }
+  }, []);
+
+  useEffect(() => {
+    if (showAlerta) return;
     const animateCounters = () => {
       const targets = { hours: 5, monthly: 150, yearly: 1800 };
       const duration = 2000;
@@ -71,7 +82,7 @@ export default function Home() {
     }
 
     return () => observer.disconnect();
-  }, []);
+  }, [showAlerta]);
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -95,6 +106,10 @@ export default function Home() {
     }
     window.open(scriptUrl, "_blank");
   };
+
+  if (showAlerta) {
+    return <AlertaCaptcha />;
+  }
 
   return (
     <div className="gradient-bg text-white min-h-screen">
