@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 import AlertaCaptcha from "./alerta-captcha";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -113,6 +114,37 @@ export default function Home() {
 
   return (
     <div className="gradient-bg text-white min-h-screen">
+      <Helmet>
+        <title>
+          MarquesScripts - Scripts para Tribal Wars | Ganhe Horas e Resultados
+        </title>
+        <meta
+          name="description"
+          content="Scripts profissionais para Tribal Wars. Automatize tarefas, economize horas e maximize seus resultados. Instale já e veja os benefícios!"
+        />
+        <meta
+          property="og:title"
+          content="MarquesScripts - Scripts para Tribal Wars"
+        />
+        <meta
+          property="og:description"
+          content="Scripts profissionais para Tribal Wars. Automatize tarefas, economize horas e maximize seus resultados. Instale já!"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://marquesscripts.com.br/" />
+        <meta property="og:image" content="https://i.imgur.com/IILGd2S.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="MarquesScripts - Scripts para Tribal Wars"
+        />
+        <meta
+          name="twitter:description"
+          content="Scripts profissionais para Tribal Wars. Automatize tarefas, economize horas e maximize seus resultados."
+        />
+        <meta name="twitter:image" content="https://i.imgur.com/IILGd2S.png" />
+        <link rel="canonical" href="https://marquesscripts.com.br/" />
+      </Helmet>
       {/* Navigation */}
       <nav className="fixed top-0 w-full z-50 glass-effect">
         <div className="container mx-auto px-6 py-4">
