@@ -812,6 +812,83 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Instalação Alternativa: Extensão Chrome */}
+      <section id="install-extension" className="py-10 bg-card/30">
+        <div className="container mx-auto px-4 md:px-8">
+          <div className="max-w-5xl mx-auto glass-effect border-2 border-yellow-400/40 rounded-3xl shadow-2xl p-10 flex flex-col md:flex-row items-center gap-12 bg-card/90">
+            <div className="w-full md:w-2/5 flex flex-col items-center justify-center text-center gap-6">
+              <h3 className="text-3xl md:text-4xl font-extrabold text-yellow-400 mb-2 drop-shadow-lg">
+                Instale a Extensão MarquesScripts!
+              </h3>
+              <p className="text-lg md:text-xl text-muted-foreground mb-2 font-medium">
+                Não quer usar o Tampermonkey? Instale nossa extensão exclusiva
+                para Chrome e Edge!
+                <br />
+                <span className="text-yellow-400 font-bold">
+                  Rápido, seguro e sem complicação.
+                </span>
+              </p>
+              <a
+                href="https://github.com/marquespq/marques-script-extension/releases/download/marques-scripts-extension-v1.0.0/marquesScript.rar"
+                target="_blank"
+                rel="noopener"
+                className="bg-gradient-to-r from-yellow-400 to-primary text-white font-bold py-4 px-10 text-xl glow-effect hover:scale-105 transition-all duration-300 shadow-xl h-auto mb-1 rounded-full"
+              >
+                Baixar Extensão
+              </a>
+              <span className="text-base text-muted-foreground font-semibold">
+                <span className="text-yellow-400 font-extrabold">
+                  100% grátis
+                </span>{" "}
+                para todos os usuários MarquesScripts!
+              </span>
+            </div>
+            <div className="w-full md:w-3/5 flex flex-col gap-6">
+              <div className="bg-yellow-400/10 border border-yellow-400/30 rounded-xl p-6 text-left">
+                <h4 className="text-xl font-bold mb-2 text-yellow-400">
+                  Como instalar a extensão?
+                </h4>
+                <ol className="list-decimal list-inside text-base text-muted-foreground space-y-2">
+                  <li>
+                    <b>Baixe o arquivo</b>{" "}
+                    <span className="text-yellow-400">marquesScript.rar</span>{" "}
+                    acima.
+                  </li>
+                  <li>
+                    <b>Descompacte</b> o arquivo em uma pasta usando o WinRAR,
+                    7-Zip ou o próprio Windows (clique com o botão direito e
+                    escolha "Extrair aqui").
+                  </li>
+                  <li>
+                    <b>No Chrome ou Edge</b>, acesse{" "}
+                    <span className="text-yellow-400">chrome://extensions</span>{" "}
+                    na barra de endereços.
+                  </li>
+                  <li>
+                    Ative o <b>Modo do desenvolvedor</b> (canto superior
+                    direito).
+                  </li>
+                  <li>
+                    Clique em <b>Carregar sem compactação</b> ou{" "}
+                    <b>Load unpacked</b>.
+                  </li>
+                  <li>Selecione a pasta onde você descompactou a extensão.</li>
+                  <li>
+                    Pronto! A extensão MarquesScripts estará ativa e pronta para
+                    uso.
+                  </li>
+                </ol>
+                <div className="mt-4 text-sm text-muted-foreground">
+                  <b>Dica:</b> Sempre baixe a versão mais recente da extensão
+                  para garantir todas as funcionalidades e segurança.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Fim Instalação Alternativa */}
+
       {/* Contact Section */}
       <section id="contact" className="py-20 bg-card/30">
         <div className="container mx-auto px-6">
