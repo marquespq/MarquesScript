@@ -97,7 +97,7 @@ export default function Home() {
     let scriptUrl = "";
     if (scriptName === "loader.user.js") {
       scriptUrl =
-        "https://gist.github.com/marquespq/5ec4333660e301e4467bf5be6a48db14/raw/40e85f10e8be28000e1a4eea6ea5b74cc6417458/marquescript.user.js";
+        "https://gist.github.com/marquespq/5ec4333660e301e4467bf5be6a48db14/raw/fab8555a1c4c2968d6dbcbe3fe23e8b0b86859d4/marquescript.user.js";
     } else if (scriptName === "plan.user.js") {
       scriptUrl =
         "https://gist.github.com/marquespq/2ac8068d989b4210667509cfc2e29053/raw/38a9ca72c3730c2a249962dfa710648578c3d83e/plan.user.js";
